@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in | Creative Video Agency</title>
+    <link rel="stylesheet" href="editkaro.css">
+</head>
+<body>
+
+    <header class="portfolio-header">
+        <h1>Editkaro.in</h1>
+        <p>Expert Video Editing & Social Media Marketing</p>
+    </header>
+
+    <div class="filter-container">
+        <button class="filter-btn active" onclick="filterVideos('all')">All Work</button>
+        <button class="filter-btn" onclick="filterVideos('gaming')">Gaming</button>
+        <button class="filter-btn" onclick="filterVideos('anime')">Anime</button>
+        <button class="filter-btn" onclick="filterVideos('football')">Football</button>
+        <button class="filter-btn" onclick="filterVideos('ads')">Ads</button>
+    </div>
+
+    <main class="video-grid" id="video-gallery">
+        <div class="video-card gaming">
+            <div class="video-placeholder">Gaming Edit</div>
+            <div class="card-info">
+                <h3>High-Octane Gaming</h3>
+                <p>Category: Gaming Videos</p>
+            </div>
+        </div>
+
+        <div class="video-card anime">
+            <div class="video-placeholder">Anime Edit</div>
+            <div class="card-info">
+                <h3>Anime Style Motion</h3>
+                <p>Category: Anime Videos</p>
+            </div>
+        </div>
+
+        <div class="video-card football">
+            <div class="video-placeholder">Football Edit</div>
+            <div class="card-info">
+                <h3>Match Highlights</h3>
+                <p>Category: Football Edits</p>
+            </div>
+        </div>
+
+        <div class="video-card ads">
+            <div class="video-placeholder">eCommerce Ad</div>
+            <div class="card-info">
+                <h3>Product Showcase</h3>
+                <p>Category: Ads</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="editkaro.js"></script>
+</body>
+</html>
